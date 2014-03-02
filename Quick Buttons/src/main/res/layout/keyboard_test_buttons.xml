@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ca.laplanete.mobile.pageddragdropgrid.PagedDragDropGrid
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/btn_lang"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"/>
+
+        <Button
+            android:id="@+id/btn_space"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="@string/btn_label_space"/>
+
+        <Button
+            android:id="@+id/btn_return"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="@string/btn_label_return"/>
+        </LinearLayout>
+
+</LinearLayout>
+

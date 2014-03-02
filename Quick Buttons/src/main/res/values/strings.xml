@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quick Buttons</string>
+    <string name="fast_input_label">Quick Buttons</string>
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+    <string name="btn_label_space">Space</string>
+    <string name="btn_label_return">Done</string>
+    <string name="button_title">Button title</string>
+    <string name="button_text">Button text</string>
+    <string name="new_button">New Button</string>
+    <string name="greeting_settings">Here you can add new buttons to your keyboard, edit or remove existing ones</string>
+
+</resources>
